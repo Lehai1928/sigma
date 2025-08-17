@@ -83,10 +83,10 @@ class library:
         print("Thêm sách thành công")
 
     def display_all_books(self):
-        if not self.books
-        print("Thư viện trống!")
+        if not self.books:
+            print("Thư viện trống!")
         else:
-        for book in self.books:
-            book.display_info()
+            for book in self.books:
+                book.display_info()
     def find_book_by_id()
             
